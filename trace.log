@@ -1,0 +1,393 @@
+4127  execve("/usr/bin/node", ["node", "script.js"], [/* 55 vars */]) = 0
+4127  brk(0)                            = 0x1c64000
+4127  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4127  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc820000
+4127  access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+4127  open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+4127  fstat(3, {st_mode=S_IFREG|0644, st_size=113387, ...}) = 0
+4127  mmap(NULL, 113387, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fcbfc804000
+4127  close(3)                          = 0
+4127  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4127  open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+4127  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+4127  fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+4127  mmap(NULL, 2109736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fcbfc3fc000
+4127  mprotect(0x7fcbfc3ff000, 2093056, PROT_NONE) = 0
+4127  mmap(0x7fcbfc5fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fcbfc5fe000
+4127  close(3)                          = 0
+4127  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4127  open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+4127  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20#\0\0\0\0\0\0"..., 832) = 832
+4127  fstat(3, {st_mode=S_IFREG|0644, st_size=31760, ...}) = 0
+4127  mmap(NULL, 2128984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fcbfc1f4000
+4127  mprotect(0x7fcbfc1fb000, 2093056, PROT_NONE) = 0
+4127  mmap(0x7fcbfc3fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fcbfc3fa000
+4127  close(3)                          = 0
+4127  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4127  open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+4127  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\274\5\0\0\0\0\0"..., 832) = 832
+4127  fstat(3, {st_mode=S_IFREG|0644, st_size=975216, ...}) = 0
+4127  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc803000
+4127  mmap(NULL, 3155200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fcbfbef1000
+4127  mprotect(0x7fcbfbfd6000, 2093056, PROT_NONE) = 0
+4127  mmap(0x7fcbfc1d5000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe4000) = 0x7fcbfc1d5000
+4127  mmap(0x7fcbfc1df000, 83200, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc1df000
+4127  close(3)                          = 0
+4127  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4127  open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+4127  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240V\0\0\0\0\0\0"..., 832) = 832
+4127  fstat(3, {st_mode=S_IFREG|0644, st_size=1067424, ...}) = 0
+4127  mmap(NULL, 3162440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fcbfbbec000
+4127  mprotect(0x7fcbfbcef000, 2097152, PROT_NONE) = 0
+4127  mmap(0x7fcbfbeef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x103000) = 0x7fcbfbeef000
+4127  close(3)                          = 0
+4127  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4127  open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+4127  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@*\0\0\0\0\0\0"..., 832) = 832
+4127  fstat(3, {st_mode=S_IFREG|0644, st_size=88408, ...}) = 0
+4127  mmap(NULL, 2184248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fcbfb9d6000
+4127  mprotect(0x7fcbfb9ea000, 2097152, PROT_NONE) = 0
+4127  mmap(0x7fcbfbbea000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7fcbfbbea000
+4127  close(3)                          = 0
+4127  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4127  open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+4127  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20m\0\0\0\0\0\0"..., 832) = 832
+4127  fstat(3, {st_mode=S_IFREG|0755, st_size=135175, ...}) = 0
+4127  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc802000
+4127  mmap(NULL, 2212936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fcbfb7b9000
+4127  mprotect(0x7fcbfb7d1000, 2093056, PROT_NONE) = 0
+4127  mmap(0x7fcbfb9d0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fcbfb9d0000
+4127  mmap(0x7fcbfb9d2000, 13384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcbfb9d2000
+4127  close(3)                          = 0
+4127  access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+4127  open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+4127  read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\37\2\0\0\0\0\0"..., 832) = 832
+4127  fstat(3, {st_mode=S_IFREG|0755, st_size=1848024, ...}) = 0
+4127  mmap(NULL, 3961912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fcbfb3f1000
+4127  mprotect(0x7fcbfb5af000, 2093056, PROT_NONE) = 0
+4127  mmap(0x7fcbfb7ae000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7fcbfb7ae000
+4127  mmap(0x7fcbfb7b4000, 17464, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcbfb7b4000
+4127  close(3)                          = 0
+4127  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc801000
+4127  mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc7ff000
+4127  arch_prctl(ARCH_SET_FS, 0x7fcbfc7ff740) = 0
+4127  mprotect(0x7fcbfb7ae000, 16384, PROT_READ) = 0
+4127  mprotect(0x7fcbfb9d0000, 4096, PROT_READ) = 0
+4127  mprotect(0x7fcbfbbea000, 4096, PROT_READ) = 0
+4127  mprotect(0x7fcbfbeef000, 4096, PROT_READ) = 0
+4127  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc7fe000
+4127  mprotect(0x7fcbfc1d5000, 32768, PROT_READ) = 0
+4127  mprotect(0x7fcbfc3fa000, 4096, PROT_READ) = 0
+4127  mprotect(0x7fcbfc5fe000, 4096, PROT_READ) = 0
+4127  mprotect(0xdd6000, 4096, PROT_READ) = 0
+4127  mprotect(0x7fcbfc822000, 4096, PROT_READ) = 0
+4127  munmap(0x7fcbfc804000, 113387)    = 0
+4127  set_tid_address(0x7fcbfc7ffa10)   = 4127
+4127  set_robust_list(0x7fcbfc7ffa20, 0x18) = 0
+4127  futex(0x7fffa43212bc, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7fcbfc7ff740) = -1 EAGAIN (Resource temporarily unavailable)
+4127  rt_sigaction(SIGRTMIN, {0x7fcbfb7bf800, [], SA_RESTORER|SA_SIGINFO, 0x7fcbfb7c8bd0}, NULL, 8) = 0
+4127  rt_sigaction(SIGRT_1, {0x7fcbfb7bf880, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fcbfb7c8bd0}, NULL, 8) = 0
+4127  rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+4127  getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+4127  brk(0)                            = 0x1c64000
+4127  brk(0x1c85000)                    = 0x1c85000
+4127  getrlimit(RLIMIT_DATA, {rlim_cur=RLIM_INFINITY, rlim_max=RLIM_INFINITY}) = 0
+4127  clock_gettime(0x7 /* CLOCK_??? */, {1383, 627713030}) = 0
+4127  ioctl(0, FIOCLEX)                 = 0
+4127  ioctl(1, FIOCLEX)                 = 0
+4127  ioctl(2, FIOCLEX)                 = 0
+4127  ioctl(3, FIOCLEX)                 = -1 EBADF (Bad file descriptor)
+4127  ioctl(4, FIOCLEX)                 = -1 EBADF (Bad file descriptor)
+4127  ioctl(5, FIOCLEX)                 = -1 EBADF (Bad file descriptor)
+4127  ioctl(6, FIOCLEX)                 = -1 EBADF (Bad file descriptor)
+4127  ioctl(7, FIOCLEX)                 = -1 EBADF (Bad file descriptor)
+4127  ioctl(8, FIOCLEX)                 = -1 EBADF (Bad file descriptor)
+4127  ioctl(9, FIOCLEX)                 = -1 EBADF (Bad file descriptor)
+4127  ioctl(10, FIOCLEX)                = -1 EBADF (Bad file descriptor)
+4127  ioctl(11, FIOCLEX)                = -1 EBADF (Bad file descriptor)
+4127  ioctl(12, FIOCLEX)                = -1 EBADF (Bad file descriptor)
+4127  ioctl(13, FIOCLEX)                = -1 EBADF (Bad file descriptor)
+4127  ioctl(14, FIOCLEX)                = -1 EBADF (Bad file descriptor)
+4127  ioctl(15, FIOCLEX)                = -1 EBADF (Bad file descriptor)
+4127  ioctl(16, FIOCLEX)                = -1 EBADF (Bad file descriptor)
+4127  rt_sigaction(SIGPIPE, {SIG_IGN, ~[RTMIN RT_1], SA_RESTORER, 0x7fcbfb7c8bd0}, NULL, 8) = 0
+4127  rt_sigaction(SIGINT, {0x591740, ~[RTMIN RT_1], SA_RESTORER, 0x7fcbfb7c8bd0}, NULL, 8) = 0
+4127  rt_sigaction(SIGTERM, {0x591740, ~[RTMIN RT_1], SA_RESTORER, 0x7fcbfb7c8bd0}, NULL, 8) = 0
+4127  pipe2([3, 4], O_CLOEXEC)          = 0
+4127  write(4, "*", 1)                  = 1
+4127  futex(0xdeff28, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+4127  epoll_create1(O_CLOEXEC)          = 5
+4127  pipe2([6, 7], O_NONBLOCK|O_CLOEXEC) = 0
+4127  eventfd2(0, O_NONBLOCK|O_CLOEXEC) = 8
+4127  rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+4127  read(3, "*", 1)                   = 1
+4127  rt_sigaction(SIGUSR1, {0x6da6d0, ~[RTMIN RT_1], SA_RESTORER, 0x7fcbfb7c8bd0}, NULL, 8) = 0
+4127  write(4, "*", 1)                  = 1
+4127  rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+4127  mmap(0x98c52d1e000, 4096, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x98c52d1e000
+4127  mmap(0x98c52d1e000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x98c52d1e000
+4127  munmap(0x98c52d1e000, 4096)       = 0
+4127  mmap(0x3f40d1e98000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x3f40d1e98000
+4127  mprotect(0x3f40d1e98000, 4096, PROT_READ|PROT_EXEC) = 0
+4127  mmap(0x20172018e000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x20172018e000
+4127  mprotect(0x20172018e000, 4096, PROT_READ|PROT_EXEC) = 0
+4127  mmap(0xa86f977000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xa86f977000
+4127  mprotect(0xa86f977000, 4096, PROT_READ|PROT_EXEC) = 0
+4127  mmap(0x54c62d1d000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x54c62d1d000
+4127  mprotect(0x54c62d1d000, 4096, PROT_READ|PROT_EXEC) = 0
+4127  mmap(0x3050743a0000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x3050743a0000
+4127  mprotect(0x3050743a0000, 4096, PROT_READ|PROT_EXEC) = 0
+4127  brk(0x1cac000)                    = 0x1cac000
+4127  gettid()                          = 4127
+4127  mmap(0x5daa8d26000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x5daa8d26000
+4127  munmap(0x5daa8d26000, 19767296)   = 0
+4127  munmap(0x5daac000000, 13787136)   = 0
+4127  mmap(0x5daaaf00000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x5daaaf00000
+4127  mmap(0x8bcb42bb000, 536870912, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x8bcb42bb000
+4127  mmap(0x5e03c3f9000, 1200128, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x5e03c3f9000
+4127  munmap(0x5e03c3f9000, 28672)      = 0
+4127  munmap(0x5e03c425000, 1019904)    = 0
+4127  mmap(0x5e03c400000, 147712, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x5e03c400000
+4127  mmap(0x33f9afed1000, 1265664, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x33f9afed1000
+4127  munmap(0x33f9afed1000, 192512)    = 0
+4127  munmap(0x33f9aff35000, 856064)    = 0
+4127  mmap(0x33f9aff00000, 213248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x33f9aff00000
+4127  mmap(0x3a318802b000, 1593344, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x3a318802b000
+4127  munmap(0x3a318802b000, 872448)    = 0
+4127  munmap(0x3a3188185000, 176128)    = 0
+4127  mmap(0x3a3188100000, 540928, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x3a3188100000
+4127  mmap(0x8bcb4300000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x8bcb4300000
+4127  mprotect(0x8bcb4305000, 4096, PROT_NONE) = 0
+4127  mmap(0x8bcb4306000, 1019904, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x8bcb4306000
+4127  mprotect(0x8bcb43ff000, 4096, PROT_NONE) = 0
+4127  mmap(0x2d41754f5000, 393216, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x2d41754f5000
+4127  mmap(0x2c71a50000, 2097152, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x2c71a50000
+4127  mmap(0x2c71a50000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2c71a50000
+4127  mmap(0x2d4175500000, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x2d4175500000
+4127  mmap(NULL, 69632, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fcbfc80f000
+4127  mprotect(0x7fcbfc80f000, 4096, PROT_NONE) = 0
+4127  clone(child_stack=0x7fcbfc81efb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fcbfc81f9d0, tls=0x7fcbfc81f700, child_tidptr=0x7fcbfc81f9d0) = 4128
+4128  set_robust_list(0x7fcbfc81f9e0, 0x18) = 0
+4128  prctl(PR_SET_NAME, 0x1c94da0, 0, 0, 0) = 0
+4128  mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fcbf33f1000
+4127  mmap(0x1992a7722000, 1200128, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0 <unfinished ...>
+4128  munmap(0x7fcbf33f1000, 12644352 <unfinished ...>
+4127  <... mmap resumed> )              = 0x1992a7722000
+4128  <... munmap resumed> )            = 0
+4127  munmap(0x1992a7722000, 909312 <unfinished ...>
+4128  munmap(0x7fcbf8000000, 54464512 <unfinished ...>
+4127  <... munmap resumed> )            = 0
+4128  <... munmap resumed> )            = 0
+4127  munmap(0x1992a7825000, 139264 <unfinished ...>
+4128  mprotect(0x7fcbf4000000, 135168, PROT_READ|PROT_WRITE <unfinished ...>
+4127  <... munmap resumed> )            = 0
+4128  <... mprotect resumed> )          = 0
+4127  mmap(0x1992a7800000, 147712, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  <... mmap resumed> )              = 0x1992a7800000
+4127  brk(0x1ccd000)                    = 0x1ccd000
+4127  mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc7dd000
+4127  munmap(0x7fcbfc7dd000, 135168)    = 0
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  brk(0x1d0b000)                    = 0x1d0b000
+4127  mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc7bd000
+4127  mmap(NULL, 532480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc73b000
+4127  open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 9
+4127  fstat(9, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+4127  mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbfc80e000
+4127  read(9, "MemTotal:        3900248 kB\nMemF"..., 1024) = 1024
+4127  close(9)                          = 0
+4127  munmap(0x7fcbfc80e000, 4096)      = 0
+4127  munmap(0x7fcbfc73b000, 532480)    = 0
+4127  munmap(0x7fcbfc7bd000, 266240)    = 0
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  brk(0x1d2f000)                    = 0x1d2f000
+4127  brk(0x1d6f000)                    = 0x1d6f000
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  brk(0x1df1000)                    = 0x1df1000
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  brk(0x1ceb000)                    = 0x1ceb000
+4128  <... nanosleep resumed> NULL)     = 0
+4127  brk(0x1d1c000 <unfinished ...>
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  <... brk resumed> )               = 0x1d1c000
+4127  brk(0x1d5e000)                    = 0x1d5e000
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  readlink("/proc/self/exe", "/usr/bin/nodejs", 8191) = 15
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4127  <... futex resumed> )             = 1
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1) = 0
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4127  brk(0x1dd9000)                    = 0x1dd9000
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1) = 0
+4128  <... nanosleep resumed> NULL)     = 0
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  getcwd("/home/mimo/webroot/tsyong", 4096) = 26
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  getcwd("/home/mimo/webroot/tsyong", 4096) = 26
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = -1 EAGAIN (Resource temporarily unavailable)
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 0
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  brk(0x1e1a000)                    = 0x1e1a000
+4127  brk(0x1e9c000)                    = 0x1e9c000
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  nanosleep({0, 900000}, NULL)      = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  stat("/home/mimo/webroot/tsyong/script.js", 0x7fffa4320b18) = -1 ENOENT (No such file or directory)
+4127  stat("/home/mimo/webroot/tsyong/script.js.js", 0x7fffa4320ac8) = -1 ENOENT (No such file or directory)
+4127  stat("/home/mimo/webroot/tsyong/script.js.json", 0x7fffa4320b88) = -1 ENOENT (No such file or directory)
+4127  stat("/home/mimo/webroot/tsyong/script.js.node", 0x7fffa4320b88) = -1 ENOENT (No such file or directory)
+4127  open("/home/mimo/webroot/tsyong/script.js/package.json", O_RDONLY) = -1 ENOENT (No such file or directory)
+4127  stat("/home/mimo/webroot/tsyong/script.js/index.js", 0x7fffa4320b88) = -1 ENOENT (No such file or directory)
+4127  stat("/home/mimo/webroot/tsyong/script.js/index.json", 0x7fffa4320b88) = -1 ENOENT (No such file or directory)
+4127  stat("/home/mimo/webroot/tsyong/script.js/index.node", 0x7fffa4320b88) = -1 ENOENT (No such file or directory)
+4127  write(2, "\n", 1)                 = 1
+4127  write(2, "module.js:340\n", 14)   = 14
+4127  write(2, "    throw err;\n", 15)  = 15
+4127  write(2, " ", 1)                  = 1
+4127  write(2, " ", 1)                  = 1
+4127  write(2, " ", 1)                  = 1
+4127  write(2, " ", 1)                  = 1
+4127  write(2, " ", 1)                  = 1
+4127  write(2, " ", 1)                  = 1
+4127  write(2, " ", 1)                  = 1
+4127  write(2, " ", 1)                  = 1
+4127  write(2, " ", 1)                  = 1
+4127  write(2, " ", 1)                  = 1
+4127  write(2, "^", 1)                  = 1
+4127  write(2, "\n", 1)                 = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = 0
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 1
+4128  <... nanosleep resumed> NULL)     = 0
+4128  futex(0x7fcbf40008c8, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+4127  futex(0x7fcbf40008c8, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+4128  <... futex resumed> )             = -1 EAGAIN (Resource temporarily unavailable)
+4128  nanosleep({0, 900000},  <unfinished ...>
+4127  <... futex resumed> )             = 0
+4127  write(2, "Error: Cannot find module '/home"..., 274) = 274
+4127  exit_group(8)                     = ?

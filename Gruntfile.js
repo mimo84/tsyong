@@ -42,8 +42,7 @@ module.exports = function (grunt) {
       dev: {                          // a particular target   
         src: ['<%= yeoman.app %>/scripts/{,*/}*.ts'], // The source typescript files, http://gruntjs.com/configuring-tasks#files
         reference: '<%= yeoman.app %>/scripts/reference.ts',  // If specified, generate this file that you can use for your reference management
-        out: '<%= yeoman.app %>/scripts/out.js',         // If specified, generate an out.js file which is the merged js file     
-        watch: '<%= yeoman.app %>/scripts/',              // If specified, configures this target to watch the specified director for ts changes and reruns itself.
+        // out: '<%= yeoman.app %>/scripts/out.js',         // If specified, generate an out.js file which is the merged js file
         options: {                  // override the main options, http://gruntjs.com/configuring-tasks#options
           sourcemap: true,
           declaration: true
@@ -57,6 +56,10 @@ module.exports = function (grunt) {
       },
     },
     watch: {
+      ts: {
+	    files: ['<%= yeoman.app %>/scripts/{,*/}*.ts'],
+	    tasks: ['ts:dev']
+	  },
       compass: {
         files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         tasks: ['compass:server']
@@ -321,7 +324,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'concurrent:server',
-      'ts',
+      'ts:dev',
       'connect:livereload',
       'open',
       'watch'
@@ -339,7 +342,7 @@ module.exports = function (grunt) {
     'clean:dist',
     'useminPrepare',
     'concurrent:dist',
-    'ts',
+    'ts:build',
     'concat',
     'copy',
     'cdnify',

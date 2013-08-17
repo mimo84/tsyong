@@ -1,4 +1,4 @@
 //grunt-start
-/// <reference path="app.ts" />
-/// <reference path="controllers/main.ts" />
+/// <reference path="main.d.ts" />
+/// <reference path="main.ts" />
 //grunt-end
